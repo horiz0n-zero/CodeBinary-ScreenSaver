@@ -7,7 +7,11 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <SpriteKit/SpriteKit.h>
 
-@interface CodeBinaryView : ScreenSaverView
+@interface CodeBinaryView : ScreenSaverView {
+    SKView*     sceneView;
+}
+
 
 @end

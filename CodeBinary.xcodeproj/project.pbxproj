@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		88D1DC9B22132B5800D8681D /* CodeBinaryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D1DC9A22132B5800D8681D /* CodeBinaryView.h */; };
 		88D1DC9D22132B5800D8681D /* CodeBinaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D1DC9C22132B5800D8681D /* CodeBinaryView.m */; };
+		88D1DCA622132C0700D8681D /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D1DCA522132C0700D8681D /* ScreenSaver.framework */; };
+		88D1DCA822132C0D00D8681D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D1DCA722132C0D00D8681D /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		88D1DC9A22132B5800D8681D /* CodeBinaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBinaryView.h; sourceTree = "<group>"; };
 		88D1DC9C22132B5800D8681D /* CodeBinaryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeBinaryView.m; sourceTree = "<group>"; };
 		88D1DC9E22132B5800D8681D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D1DCA522132C0700D8681D /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		88D1DCA722132C0D00D8681D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +27,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D1DCA822132C0D00D8681D /* SpriteKit.framework in Frameworks */,
+				88D1DCA622132C0700D8681D /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +40,7 @@
 			children = (
 				88D1DC9922132B5800D8681D /* CodeBinary */,
 				88D1DC9822132B5800D8681D /* Products */,
+				88D1DCA422132C0700D8681D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +60,15 @@
 				88D1DC9E22132B5800D8681D /* Info.plist */,
 			);
 			path = CodeBinary;
+			sourceTree = "<group>";
+		};
+		88D1DCA422132C0700D8681D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D1DCA722132C0D00D8681D /* SpriteKit.framework */,
+				88D1DCA522132C0700D8681D /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
