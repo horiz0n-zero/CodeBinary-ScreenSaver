@@ -8,8 +8,14 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 #import <SpriteKit/SpriteKit.h>
+#import "CodeBinaryShape.h"
 
-@interface CodeBinaryScene: SKScene
+@interface CodeBinaryScene: SKScene {
+
+    CGSize          shapeSize;
+    NSArray*        shapeArray;
+    int             currentShape;
+}
 
 
 

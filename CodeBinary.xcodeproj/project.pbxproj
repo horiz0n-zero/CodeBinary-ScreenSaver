@@ -12,6 +12,7 @@
 		88D1DCA622132C0700D8681D /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D1DCA522132C0700D8681D /* ScreenSaver.framework */; };
 		88D1DCA822132C0D00D8681D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D1DCA722132C0D00D8681D /* SpriteKit.framework */; };
 		88D1DCAE2213F29200D8681D /* CodeBinaryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D1DCAD2213F29200D8681D /* CodeBinaryScene.m */; };
+		C4FA93E02214088400DFDAF7 /* CodeBinaryShape.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FA93DF2214088400DFDAF7 /* CodeBinaryShape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		88D1DCA722132C0D00D8681D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		88D1DCAD2213F29200D8681D /* CodeBinaryScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeBinaryScene.m; sourceTree = "<group>"; };
 		88D1DCAF2213F29F00D8681D /* CodeBinaryScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBinaryScene.h; sourceTree = "<group>"; };
+		C4FA93DF2214088400DFDAF7 /* CodeBinaryShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeBinaryShape.m; sourceTree = "<group>"; };
+		C4FA93E12214089200DFDAF7 /* CodeBinaryShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBinaryShape.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				88D1DC9C22132B5800D8681D /* CodeBinaryView.m */,
 				88D1DCAF2213F29F00D8681D /* CodeBinaryScene.h */,
 				88D1DCAD2213F29200D8681D /* CodeBinaryScene.m */,
+				C4FA93E12214089200DFDAF7 /* CodeBinaryShape.h */,
+				C4FA93DF2214088400DFDAF7 /* CodeBinaryShape.m */,
 				88D1DC9E22132B5800D8681D /* Info.plist */,
 			);
 			path = CodeBinary;
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88D1DCAE2213F29200D8681D /* CodeBinaryScene.m in Sources */,
+				C4FA93E02214088400DFDAF7 /* CodeBinaryShape.m in Sources */,
 				88D1DC9D22132B5800D8681D /* CodeBinaryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
